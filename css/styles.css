@@ -11,6 +11,7 @@ body{
     margin: 0;
     padding: 20px;
 }
+/* Header styles */
 header{
     background-color: #00568c;
     color: #ffffff;
@@ -91,4 +92,72 @@ a{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
+}
+.logo{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+/* Main content styles */
+main{
+    display: flex;
+    flex-direction: column;
+}
+/* Section styles */
+.services{
+    background: linear-gradient(to right, #008e66, #00568c);
+    text-align: center;
+    padding: 50px 20px;
+    color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styles */
+.card{
+    background-color: #00ace6;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.card-1{
+  float: left;
+  margin-right: 20px;
+}
+.card-2{
+  float: right;
+  margin-left: 20px;
+}
+.card-3{
+ align-self: center;
+  margin: 0 auto;
+}
+.interactive{
+  background: linear-gradient(to right, #008e66, #00568c);
+  text-align: center;
+  padding: 50px 20px;
+  color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hover-box{
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #008e66;
 }
