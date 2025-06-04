@@ -12,11 +12,11 @@
 
         <nav class="main-nav">
             <button>
-            <span class="text"><a href="#">Home</a></span>
+            <span class="text"><a href=".main-nav">Home</a></span>
             </button>
 
             <button>
-            <span class="text"><a href="#">Services</a></span>
+            <span class="text"><a href=".services">Services</a></span>
             </button>
 
             <button>
@@ -68,7 +68,7 @@
         <section class="interactive">
             <h2>Interactive Development</h2>
 
-            <div class="card">
+            <div class="card card-1">
                 <h3>CSS Animation & Transitions</h3>
                 
                 <p>Hover over the box below to see smooth transitions and transformation</p>
@@ -76,6 +76,21 @@
                 <div class="hover-box">
                     <p>Hover over me!</p>
                 </div>
+            </div>
+
+            <div class="card card-2">
+                <h3>Visiblity Property Demo</h3>
+
+                <p>Click the button to toggle the visibility of the text below</p>
+
+                <button>
+                    <span class="text" onclick="visiblity()">Test Visiblity</span>
+                </button>
+
+                <div class="visibility">
+                    <p>Make me invisible</p>
+                </div>
+
             </div>
         </section>
 
@@ -85,5 +100,7 @@
     <footer>
 
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
