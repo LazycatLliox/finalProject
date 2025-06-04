@@ -18,8 +18,20 @@ header{
     text-align: center;
     list-style: none;
     align-content: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
-/* From Uiverse.io by cssbuttons-io */ 
+
+/* Navigation styles */
+.main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
 button {
   background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
@@ -68,11 +80,15 @@ a{
   text-decoration: none;
   color: #ffffff;
 }
+
+/* Hero section styles */
 #hero{
     background: linear-gradient(to right, #008e66, #00568c);
     text-align: center;
     padding: 50px 20px;
     color: #ffffff;
     margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
