@@ -10,25 +10,25 @@
     <header>
         <h1>Welcome to Seaway Computer & Information Science</h1>
 
-        <nav class="main-nav">
+        <nav class="main-nav" id ="main-nav">
             <button>
-            <span class="text"><a href=".main-nav">Home</a></span>
+            <span class="text"><a href="#main-nav">Home</a></span>
             </button>
 
             <button>
-            <span class="text"><a href=".services">Services</a></span>
+            <span class="text"><a href="#services">Services</a></span>
             </button>
 
             <button>
-            <span class="text"> <a href="#">About</a></span>
+            <span class="text"> <a href="#technology-stack">About</a></span>
             </button>
 
             <button>
-            <span class="text"> <a href="#">Portfolio</a></span>
+            <span class="text"> <a href="#interactive">Portfolio</a></span>
             </button>
 
             <button>
-            <span class="text"> <a href="#">Contact</a></span>
+            <span class="text"> <a href="#contact">Contact</a></span>
             </button>
         </nav>
     </header>
@@ -43,7 +43,7 @@
     </div>
 
     <main>
-        <section class="services">
+        <section class="services" id="services">
             <h2>Our Services</h2>
 
             <div class="card card-1">
@@ -65,7 +65,44 @@
             </div>
         </section>
 
-        <section class="interactive">
+        <section class="Technology-stack" id="technology-stack">
+            <h2>Our Technology Stack:</h2>
+
+            <h3>We use cutting edge technologies to deliver exceptional results.</h3>
+            <div class="formation">
+                <div class="card size">
+                    <h3>HTML 5</h3>
+                </div>
+                <div class="card size">
+                    <h3>CSS 3</h3>
+                </div>
+                <div class="card size">
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="card size">
+                    <h3>Responsive Design</h3>
+                </div>
+
+                <div class="card size">
+                    <h3>CSS Grid</h3>
+                </div>
+
+                <div class="card size">
+                    <h3>Flexbox</h3>
+                </div>
+
+                <div class="card size">
+                    <h3>Animations</h3>
+                </div>
+
+                <div class="card size">
+                    <h3>Semantic HTML</h3>
+                </div> 
+            </div>
+        </section>
+
+        <section class="interactive" id="interactive">
             <h2>Interactive Development</h2>
 
             <div class="card card-1">
@@ -83,24 +120,108 @@
 
                 <p>Click the button to toggle the visibility of the text below</p>
 
-                <button>
-                    <span class="text" onclick="visiblity()">Test Visiblity</span>
+                <button id="toggle-visibility-btn" class="cta-btn">
+                    <span class="text">Test Visiblity</span>
                 </button>
 
-                <div class="visibility">
-                    <p>Make me invisible</p>
+                <div id="visibility-demo">
+                    <p id ="jquery-visibility-box" class="visibility-box">Make me invisible</p>
                 </div>
 
             </div>
+
+
+            <div class="card card-3">
+                <h3>Box Model Demonstration</h3> 
+                <p>Hover to see padding, margin and border changes</p>
+
+                <button>
+                    <span class="text">Hover over the box</span>
+                </button>
+            </div>
         </section>
 
+        <section>
+            <section id="iframe-demo">
+                <h2>Embedded Content with IFrames</h2>
+                <p>Here's an example of embedding external content:</p>
+                <div class="iframe-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2834.4044878090444!2d-74.991377!3d44.731764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc5d49b5e03a9f%3A0x34ed4ffecd8d6afb!2sBOCES%20Seaway%20Tech%20Campus!5e0!3m2!1sen!2sus!4v1749058147744!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </section>
 
+        <section class="advanced-selectors">
+            <h2>Addvanced CSS Selctors</h2>
+
+            <p>This project demonstrates various selector combinations:</p>
+
+            <ul>
+                <li>Multi-selectors: h1, h2, h3 { font-family: Georgia }</li>
+                <li>Child selectors: .card > h3 for direct children</li>
+                <li>Pseudo-selectors: :nth-child(even) for alternating styles</li>
+                <li>Hover effects: Interactive elements throughout the site</li>
+                <li>Focus states: Accessible navigation and form elements</li>
+            </ul>
+        </section>
     </main>
 
     <footer>
+        <section class="contact" id="contact">
+            <h2>Get in touch </h2>
 
+            <p>Ready to start your next web project? Let's discuss how we can help bring your vision to life.</p>
+            
+            <p>Email: info@computerinfoscience.com</p>
+
+            <p>Phone: (555) 123-4567</p>
+
+            <p>Address: 7225 NY-56, Norwood, NY 13668</p>
+        </section>
+
+        <section class="footer-nav">
+            <h2>Footer Nav</h2>
+
+            <nav class="main-nav">
+                <button>
+                    <span class="text"><a href="#main-nav">Home</a></span>
+                </button>
+
+                <button>
+                    <span class="text"><a href="#services">Services</a></span>
+                </button>
+
+                <button>
+                    <span class="text"> <a href="#technology-stack">About</a></span>
+                </button>
+
+                <button>
+                    <span class="text"> <a href="#interactive">Portfolio</a></span>
+                </button>
+
+                <button>
+                    <span class="text"> <a href="#contact">Contact</a></span>
+                </button>
+            </nav>
+        </section>
+
+        <section class="copyright">
+            <h2>Copyright and Closing</h2>
+            <p>&copy; 2025 Seaway Computer & Information Science. All rights reserved.</p>
+
+            <p>Built with HTML5 semantic tags, advanced CSS selectors, animations, and responsive design principles</p>
+        </section>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(function() {
+        $('#toggle-visibility-btn').on('click', function() {
+        $('#jquery-visibility-box').fadeToggle(400);
+        });
+        });
+    </script>
+
 </body>
 </html>
